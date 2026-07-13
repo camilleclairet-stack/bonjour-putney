@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>French Bakery in Putney | Bonjour Putney SW15</title>
+<meta name="description" content="Authentic French bakery in Putney, London. Croissants, pastries, bread and sandwiches baked fresh on the premises every day since 2018. Open 7 days, 6:30am to 3pm.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Caveat:wght@500;600&family=Nunito:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<script>document.documentElement.className='js';</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Bonjour Putney",
+  "slogan": "A part of France in Putney",
+  "description": "Authentic French bakery and patisserie in Putney, London. Croissants, viennoiseries, bread, sandwiches and homemade cakes baked on the premises every day since 2018.",
+  "telephone": "+44 20 8788 6363",
+  "email": "hello@bonjourputney.co.uk",
+  "foundingDate": "2018",
+  "servesCuisine": "French",
+  "priceRange": "£",
+  "address": {"@type":"PostalAddress","streetAddress":"64 Lower Richmond Road","addressLocality":"Putney, London","postalCode":"SW15 1LL","addressCountry":"GB"},
+  "geo": {"@type":"GeoCoordinates","latitude":51.4662,"longitude":-0.2213},
+  "openingHoursSpecification": [{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"06:30","closes":"15:00"}],
+  "sameAs": ["https://www.instagram.com/bonjourputney64/"]
+}
+</script>
+<style>
+:root{
+  --bg:#FDFBF6; --cream:#F1E7CF; --line:#E2D7BE;
+  --green:#3C6B54; --green-deep:#2C5140;
+  --red:#8E2F3C; --red-deep:#73242F;
+  --ink:#39322A; --soft:#7C7263;
+  --serif:'Baloo 2',sans-serif; --hand:'Caveat',cursive; --sans:'Nunito',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.75;font-size:17px;font-weight:300;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--red);text-decoration:none}
+b,strong{font-weight:500}
+.wrap{max-width:1040px;margin:0 auto;padding:0 clamp(24px,6vw,72px)}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:10px 18px;z-index:300}
+.skip-link:focus{left:12px;top:12px}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+
+.hand{font-family:var(--hand);color:var(--green);font-size:1.7rem;font-weight:500;display:inline-block}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2;letter-spacing:.005em}
+.note{font-size:.8rem;color:#A79B87;font-style:italic}
+
+.btn{display:inline-block;font-family:var(--sans);font-weight:400;font-size:.9rem;line-height:1.4;background:var(--red);color:#FFFDF8;border:1px solid var(--red);padding:8px 22px;border-radius:5px;cursor:pointer;transition:background .25s,border-color .25s}
+.btn:hover{background:var(--red-deep);border-color:var(--red-deep)}
+.btn.green{background:var(--green);border-color:var(--green)}
+.btn.green:hover{background:var(--green-deep);border-color:var(--green-deep)}
+.tlink{color:var(--red);border-bottom:1px solid rgba(164,81,76,.35);padding-bottom:2px;transition:border-color .25s}
+.tlink:hover{border-color:var(--red)}
+
+.preview-ribbon{background:var(--ink);color:#EDE6D8;text-align:center;font-size:.76rem;padding:7px 44px 7px 16px;position:relative;z-index:220}
+.preview-ribbon button{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;color:#EDE6D8;cursor:pointer;padding:4px 8px}
+
+.topbar{background:var(--green-deep);color:#EAE4D2;font-size:.8rem}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:7px;padding-bottom:7px;gap:16px}
+.topbar span{white-space:nowrap}
+@media(max-width:760px){.topbar .hide-m{display:none}.topbar .wrap{justify-content:center}}
+
+header.site{position:sticky;top:12px;z-index:200;background:transparent;padding:0 clamp(12px,2vw,24px);margin-top:14px}
+header.site .wrap{max-width:1180px;padding:0}
+.nav{background:rgba(253,251,246,.92);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:16px;box-shadow:0 6px 22px rgba(60,45,20,.08);padding:8px 20px!important;transition:background .35s,border-color .35s,box-shadow .35s}
+header.site.scrolled .nav{box-shadow:0 8px 28px rgba(60,45,20,.14)}
+body.home header.site:not(.scrolled) .nav{background:rgba(26,20,12,.45);border-color:rgba(255,249,238,.16);box-shadow:none}
+body.home header.site:not(.scrolled) .nav-links a,body.home header.site:not(.scrolled) .brand-name{color:#FFF9EE}
+body.home header.site:not(.scrolled) .brand-sub{color:#EED9A8}
+body.home header.site:not(.scrolled) .nav-links a::after{background:#EED9A8}
+body.home header.site:not(.scrolled) .nav-links a.active{color:#EED9A8;border-color:transparent}
+body.home header.site:not(.scrolled) .burger span{background:#FFF9EE}
+@media(max-width:900px){body.home header.site:not(.scrolled) .nav-links.open a{color:var(--ink)}}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink)}
+.brand-mark{width:38px;height:38px;flex:none}
+.brand-name{font-family:var(--serif);font-weight:600;font-size:1.12rem;line-height:1.25}
+.brand-sub{font-size:.72rem;color:var(--soft);display:block;font-weight:300}
+.nav-links{display:flex;align-items:center;gap:28px;list-style:none}
+.nav-links a{font-size:.95rem;color:var(--green-deep);font-weight:400;padding:6px 0;border-bottom:1px solid transparent;transition:border-color .25s,color .25s}
+.nav-links a:hover{border-color:var(--red)}
+.nav-links a.active{color:var(--red);border-color:var(--red)}
+.nav .btn{padding:6px 15px;font-size:.82rem}
+.burger{display:none;background:none;border:none;cursor:pointer;padding:8px}
+.burger span{display:block;width:24px;height:1.5px;background:var(--ink);margin:6px 0}
+@media(max-width:900px){
+  .burger{display:block}
+  .nav-cta{display:none}
+  .nav-links{position:fixed;inset:0;background:var(--bg);flex-direction:column;justify-content:center;gap:28px;transform:translateX(100%);transition:transform .35s ease;z-index:250}
+  .nav-links.open{transform:translateX(0)}
+  .nav-links a{font-family:var(--serif);font-size:1.4rem}
+}
+
+.page{display:none}
+.page.active{display:block;animation:pagein .35s ease}
+@keyframes pagein{from{opacity:0}to{opacity:1}}
+
+/* photos: gentle fade-in only */
+.js .ph-img{opacity:0;transition:opacity 1s ease}
+.js .ph-img.visible{opacity:1}
+.noimg{display:flex;align-items:center;justify-content:center;background:var(--cream)!important;min-height:220px}
+.noimg::after{content:"Photo to come";font-family:var(--serif);font-style:italic;color:#B3A791}
+
+.osm{border-radius:16px;overflow:hidden;border:1px solid var(--line);margin-top:44px}
+.osm iframe{width:100%;height:320px;border:0;display:block}
+.osm-tall{margin-top:0}
+.osm-tall iframe{height:400px}
+.foot-social{display:flex;gap:14px;justify-content:center;padding-bottom:40px}
+.fsoc{border:1px solid rgba(233,224,198,.4);border-radius:50%;width:46px;height:46px;display:flex;align-items:center;justify-content:center;color:#E9E0C6;transition:background .25s}
+.fsoc:hover{background:rgba(233,224,198,.12);color:#fff}
+.mchips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:26px 16px 6px;position:sticky;top:84px;z-index:90;pointer-events:none}
+.mchips a{pointer-events:auto;font-size:.8rem;color:var(--ink);border:1px solid rgba(60,45,20,.18);background:rgba(253,251,246,.88);backdrop-filter:blur(6px);border-radius:8px;padding:5px 14px;box-shadow:0 2px 10px rgba(60,45,20,.08);transition:border-color .25s,color .25s}
+.mchips a:hover{border-color:var(--red);color:var(--red)}
+
+/* ============ HOME ============ */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;margin-top:calc(var(--headh,64px) * -1)}
+.hero-bg{position:absolute;inset:0;background:#3A3128 url('img/facade.jpg') center bottom/cover no-repeat}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,22,14,.55),rgba(28,22,14,0) 26%),linear-gradient(100deg,rgba(28,22,14,.72) 8%,rgba(28,22,14,.42) 52%,rgba(28,22,14,.12));z-index:1}
+.hero .wrap{position:relative;z-index:2;width:100%;max-width:none;padding:70px 24px 70px var(--pilll,48px)}
+.hero-inner{max-width:600px}
+.hero .hand{color:#EED9A8;font-size:2.1rem;margin-left:0;transform:none}
+.hero h1{font-size:clamp(2.4rem,5vw,3.7rem);margin:6px 0 18px;color:#FFF9EE;max-width:16ch;text-shadow:0 2px 14px rgba(20,15,8,.35)}
+.hero h1 .accent{color:#EED9A8}
+.hero p{color:#F1E9D8;max-width:44ch;margin-bottom:28px}
+.hero-hours{margin-top:26px;font-size:.95rem;color:#E7DDC6}
+.hero-hours b{color:#EED9A8;font-weight:500}
+.hero-hours .tlink{color:#FFF9EE;border-color:rgba(255,249,238,.45)}
+@media(max-width:860px){.hero{min-height:88svh}.hero-bg{background-position:center bottom}}
+
+.accent{color:var(--red);font-style:normal}
+.scribble{font-family:var(--hand);color:var(--red);font-size:1.15rem;margin-left:12px;transform:rotate(-2deg);display:inline-block;font-weight:500}
+
+.favs{padding:76px 0}
+.favs-head{text-align:center;margin-bottom:44px}
+.favs-head h2{font-size:clamp(1.7rem,3vw,2.3rem);margin-top:2px}
+.favs .wrap{max-width:900px}
+.favs-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.fav{display:flex;align-items:baseline;gap:12px;padding:14px 0;border-bottom:1px dotted var(--line)}
+.fav:last-child{border-bottom:none}
+.fav h3{font-size:1.15rem;font-weight:500}
+.fav .fill{flex:1}
+.fav .price{color:var(--red);font-family:var(--serif)}
+.fav p{display:none}
+.favs-img{transform:rotate(-.8deg)}
+.favs-img img{width:100%;aspect-ratio:3/4;height:auto;object-fit:cover;border-radius:6px;box-shadow:0 10px 24px rgba(70,60,40,.12)}
+.favs-foot{text-align:center;margin-top:40px}
+@media(max-width:820px){.favs-grid{grid-template-columns:1fr}.favs-img{order:-1}.favs-img img{height:260px}}
+
+.quote{background:var(--cream);padding:70px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.quote blockquote{max-width:640px;margin:0 auto;text-align:center;font-family:var(--serif);font-style:italic;font-size:clamp(1.25rem,2.4vw,1.6rem);line-height:1.5;color:var(--ink)}
+.quote cite{display:block;margin-top:16px;font-style:normal;font-family:var(--sans);font-size:.82rem;color:var(--soft)}
+.quote .note{display:block;text-align:center;margin-top:14px}
+
+.ig{padding:70px 0;background:var(--bg)}
+.ig-head{text-align:center;margin-bottom:26px}
+.ig-head h2{font-size:clamp(1.6rem,2.8vw,2.1rem);margin-top:2px}
+.cf{position:relative;max-width:1040px;margin:0 auto;height:660px}
+.cf-card{position:absolute;top:16px;left:50%;width:min(340px,76vw);background:#fff;border-radius:16px;box-shadow:0 14px 36px rgba(60,45,25,.18);padding:12px;transition:transform .55s ease,opacity .55s ease;will-change:transform}
+.cf-head{display:flex;align-items:center;gap:9px;padding:2px 4px 10px}
+.cf-ava{width:34px;height:34px;border-radius:50%;background:var(--green-deep);color:#EED9A8;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:.78rem;flex:none}
+.cf-user b{font-weight:600;font-size:.85rem;display:block;line-height:1.2;color:var(--ink)}
+.cf-user span{font-size:.72rem;color:var(--soft)}
+.cf-ig{margin-left:auto;color:#B4436C;flex:none}
+.cf-imgwrap{border-radius:10px;overflow:hidden;background:var(--cream)}
+.cf-imgwrap img{width:100%;aspect-ratio:4/5;height:auto;object-fit:cover;display:block}
+.cf-cap{font-size:.82rem;color:var(--soft);padding:10px 4px 8px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cf-more{display:block;text-align:center;font-size:.8rem;border:1px solid var(--line);border-radius:8px;padding:7px;color:var(--ink);transition:border-color .25s,color .25s}
+.cf-more:hover{border-color:var(--red);color:var(--red)}
+.car-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:150;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#FFFDF8;cursor:pointer;font-size:1.05rem;color:var(--ink);transition:border-color .25s,color .25s;box-shadow:0 4px 14px rgba(60,45,25,.12)}
+.car-btn:hover{border-color:var(--red);color:var(--red)}
+.car-btn.prev{left:4px}.car-btn.next{right:4px}
+@media(max-width:640px){.cf{height:600px}.car-btn.prev{left:2px}.car-btn.next{right:2px}}
+.ig-foot{text-align:center;margin-top:22px}
+
+.come{padding:80px 0;background:var(--cream);border-top:1px solid var(--line)}
+.come-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:44px;align-items:stretch}
+.come-left{display:flex;flex-direction:column;gap:30px;justify-content:center}
+.come-map{margin-top:0;height:100%}
+.come-map iframe{height:100%;min-height:460px}
+.come h2{font-size:clamp(1.7rem,3vw,2.3rem);margin:4px 0 14px}
+.come p{color:var(--soft);margin-bottom:10px}
+.come-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:34px 38px}
+.come-card .day{display:flex;justify-content:space-between;font-size:.95rem;padding:6px 0;border-bottom:1px dotted var(--line)}
+.come-card .day:last-of-type{border-bottom:none}
+.come-card .day span:last-child{color:var(--green);font-weight:400}
+.come-card .addr{margin-top:18px;font-size:.95rem;color:var(--soft)}
+@media(max-width:820px){.come-grid{grid-template-columns:1fr}.come-map iframe{min-height:320px}}
+
+/* ============ inner pages ============ */
+.pagehead{padding:58px 0 44px;border-bottom:1px solid var(--line);text-align:center}
+.pagehead .wrap{max-width:820px}
+.pagehead .hand{transform:rotate(-2deg)}
+.pagehead h1{font-size:clamp(2rem,4vw,2.9rem);margin-top:4px}
+.pagehead p{color:var(--soft);max-width:52ch;margin:12px auto 0}
+
+.menu-sec{padding:70px 0 90px}
+.menu-sec .wrap{max-width:980px}
+.mcat{margin-bottom:120px}
+.mcat:last-child{margin-bottom:0}
+.mcat{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:46px;align-items:start}
+.mcat.flip .mcat-photo{order:2}
+.mcat-photo{border-radius:16px;overflow:hidden;background:var(--cream);position:sticky;top:150px;margin:0}
+.mcat-photo img{width:100%;height:auto;display:block}
+.mcat-body h2,.mcat-body .sub{text-align:left}
+@media(max-width:780px){.mcat{grid-template-columns:1fr}.mcat.flip .mcat-photo{order:0}.mcat-photo{position:static}}
+.mcat h2{font-size:1.6rem}
+.mcat .sub{display:block;font-family:var(--hand);color:var(--green);font-size:1.35rem;margin-bottom:20px}
+.mi{padding:11px 0;border-bottom:1px dotted var(--line)}
+.mi:last-child{border-bottom:none}
+.mi-row{display:flex;align-items:baseline;gap:12px}
+.mi-name{font-family:var(--serif);font-weight:500;font-size:1.1rem}
+.mi-fill{flex:1}
+.mi-price{font-family:var(--serif);color:var(--red);white-space:nowrap}
+.mi-desc{font-size:.88rem;color:var(--soft);max-width:56ch}
+.mi .season{font-family:var(--hand);font-size:1.15rem;color:var(--red);margin-left:10px}
+.veg{display:inline-block;font-size:.6rem;letter-spacing:.08em;border:1px solid var(--green);color:var(--green);border-radius:3px;padding:1px 6px;vertical-align:3px;margin-left:8px}
+.menu-note{text-align:center;margin-top:36px}
+
+.essay{padding:70px 0 40px}
+.essay .wrap{max-width:820px;display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
+.essay p{color:var(--soft);margin-bottom:16px}
+.essay img{width:100%;height:380px;object-fit:cover;border-radius:6px}
+.essay figcaption{font-family:var(--hand);color:var(--green);font-size:1.2rem;margin-top:10px;text-align:center}
+@media(max-width:820px){.essay .wrap{grid-template-columns:1fr}}
+.tenets{padding:30px 0 80px}
+.tenets .wrap{max-width:820px}
+.tenets h2{text-align:center;font-size:1.7rem;margin-bottom:8px}
+.tenets .sub{display:block;text-align:center;font-family:var(--hand);color:var(--green);font-size:1.35rem;margin-bottom:28px}
+.tenet{padding:20px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:200px 1fr;gap:18px;align-items:baseline}
+.tenet:last-child{border-bottom:1px solid var(--line)}
+.tenet h3{font-size:1.2rem}
+.tenet p{color:var(--soft);font-size:.95rem}
+@media(max-width:640px){.tenet{grid-template-columns:1fr;gap:4px}}
+
+.offers{padding:70px 0 30px}
+.offers-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.offer-card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s ease,box-shadow .3s ease}
+.offer-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(70,55,30,.12)}
+.oc-img{overflow:hidden}
+.oc-img img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.oc-body{padding:28px 30px 32px;display:flex;flex-direction:column;gap:10px;flex:1}
+.oc-body h2{font-size:1.5rem}
+.oc-body p{color:var(--soft);font-size:.96rem}
+.oc-tags{list-style:none;display:flex;flex-wrap:wrap;gap:8px;padding:4px 0 8px}
+.oc-tags li{font-size:.78rem;border:1px solid var(--line);border-radius:8px;padding:4px 12px;color:var(--soft);background:var(--bg)}
+.oc-body .btn{align-self:flex-start;margin-top:auto}
+@media(max-width:780px){.offers-grid{grid-template-columns:1fr}}
+.steps{padding:64px 0;background:var(--cream);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.steps-head{text-align:center;margin-bottom:38px}
+.steps-head h2{font-size:1.7rem}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px 26px;text-align:center}
+.step-no{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--red);color:#fff;font-family:var(--serif);font-size:1.2rem;margin-bottom:12px}
+.step h3{font-size:1.15rem;margin-bottom:6px}
+.step p{color:var(--soft);font-size:.9rem}
+@media(max-width:700px){.steps-grid{grid-template-columns:1fr}}
+.bakes{padding:66px 0 30px}
+.bakes-head{text-align:center;margin-bottom:32px}
+.bakes-head h2{font-size:1.7rem}
+.bakes-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.bakes-row a{border-radius:14px;overflow:hidden;display:block}
+.bakes-row img{width:100%;aspect-ratio:1;object-fit:cover;display:block;transition:transform .4s ease}
+.bakes-row a:hover img{transform:scale(1.06)}
+@media(max-width:700px){.bakes-row{grid-template-columns:repeat(2,1fr)}}
+.enquiry{padding:36px 0 90px}
+.enquiry h2{font-size:1.7rem;margin-bottom:6px}
+.enquiry .sub{display:block;font-family:var(--hand);color:var(--green);font-size:1.35rem;margin-bottom:22px}
+.enquiry-grid{display:grid;grid-template-columns:330px 1fr;gap:30px;align-items:start}
+.enq-aside{background:var(--green-deep);color:#EAE4D2;border-radius:20px;padding:32px 30px}
+.enq-aside .hand{color:#EED9A8}
+.enq-aside h3{color:#fff;font-size:1.3rem;margin:4px 0 12px}
+.enq-aside p{font-size:.92rem;margin-bottom:14px}
+.enq-aside b{color:#fff;font-weight:500}
+@media(max-width:860px){.enquiry-grid{grid-template-columns:1fr}}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 26px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field.full{grid-column:1/-1}
+.field label{font-size:.82rem;color:var(--ink);font-weight:400}
+.field input,.field select,.field textarea{font-family:var(--sans);font-weight:300;font-size:1rem;padding:10px 12px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink);transition:border-color .25s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--green)}
+.form-foot{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:6px}
+.form-success{display:none;text-align:center;padding:26px 0 6px}
+.form-success.show{display:block;animation:pagein .4s ease}
+@media(max-width:620px){.form-grid{grid-template-columns:1fr}}
+
+.findus-sec{padding:64px 0 90px}
+.fu-panel{display:grid;grid-template-columns:1.1fr 1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;margin-bottom:48px}
+.fu-col{padding:38px 36px;display:flex;flex-direction:column;gap:4px}
+.fu-col+.fu-col{border-left:1px solid var(--line)}
+.fu-col .hand{font-size:1.25rem}
+.fu-col h3{font-size:1.15rem;margin:0 0 10px}
+.fu-col p{font-size:.93rem;color:var(--soft);line-height:1.85}
+.fu-col b{color:var(--ink)}
+.fu-hours .big{font-family:var(--serif);font-weight:600;font-size:1.8rem;color:var(--ink);line-height:1.15;margin:2px 0 8px}
+.fu-follow .btn{align-self:flex-start;margin-top:14px}
+.btn-insta{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;padding:7px 18px;font-size:.85rem}
+.fu-getting{display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:start;margin-bottom:22px}
+.fu-getting h3{font-size:1.3rem}
+.fu-getting p{color:var(--soft);font-size:.96rem}
+.fu-getting b{color:var(--ink)}
+@media(max-width:880px){.fu-panel{grid-template-columns:1fr}.fu-col+.fu-col{border-left:none;border-top:1px solid var(--line)}.fu-getting{grid-template-columns:1fr;gap:6px}}
+.map-box{border:1px solid var(--line);border-radius:6px;background:var(--cream);min-height:340px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--soft);text-align:center;padding:24px}
+.map-box b{color:var(--ink)}
+.getting{margin-top:26px}
+.getting h3{font-size:1.25rem;margin-bottom:6px}
+.getting p{color:var(--soft);font-size:.95rem}
+@media(max-width:820px){.findus-sec .wrap{grid-template-columns:1fr}}
+
+footer{background:var(--green-deep);color:#D8D2BE;margin-top:0}
+.foot-top{text-align:center;padding:54px 20px 10px}
+.foot-top .hand{color:#E9E0C6;font-size:2.1rem}
+.foot-mid{text-align:center;padding:6px 20px 34px;font-size:.95rem;line-height:2}
+.foot-mid a{color:#E9E0C6;border-bottom:1px solid rgba(233,224,198,.3)}
+.foot-links{display:flex;justify-content:center;gap:26px;flex-wrap:wrap;padding-bottom:38px}
+.foot-links a{color:#D8D2BE;font-size:.92rem}
+.foot-links a:hover{color:#fff}
+.foot-bottom{border-top:1px solid rgba(233,224,198,.18);padding:18px 20px;font-size:.75rem;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#A8A489;max-width:1040px;margin:0 auto}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="preview-ribbon" id="ribbon">
+  Client preview. Drop the bakery's own photos into the img folder (hero, counter, team, cake, platter .jpg) to replace the placeholders. Food prices are samples.
+  <button aria-label="Dismiss" onclick="this.parentElement.style.display='none'">✕</button>
+</div>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>Open 7 days, 6:30am to 3:00pm</span>
+    <span class="hide-m">64 Lower Richmond Rd, Putney SW15 1LL</span>
+    <span class="hide-m">020 8788 6363</span>
+  </div>
+</div>
+
+<header class="site" id="siteHeader">
+  <div class="wrap nav">
+    <a href="#home" class="brand" data-page="home" aria-label="Bonjour Putney, back to home">
+      <svg class="brand-mark" viewBox="0 0 100 100" role="img" aria-label="Bonjour Putney roundel">
+        <circle cx="50" cy="50" r="48" fill="#2C5140"/>
+        <circle cx="50" cy="50" r="43" fill="none" stroke="#E9E0C6" stroke-width="1"/>
+        <path id="arcT" d="M 16 50 A 34 34 0 0 1 84 50" fill="none"/>
+        <path id="arcB" d="M 14 50 A 36 36 0 0 0 86 50" fill="none"/>
+        <text style="font-family:'Fraunces',serif;font-size:12.5px;letter-spacing:2.5px;fill:#FDFBF6"><textPath href="#arcT" startOffset="50%" text-anchor="middle">BONJOUR</textPath></text>
+        <text style="font-family:'Fraunces',serif;font-size:10.5px;letter-spacing:2.5px;fill:#E9E0C6"><textPath href="#arcB" startOffset="50%" text-anchor="middle">· PUTNEY ·</textPath></text>
+        <g transform="translate(50 52)">
+          <path d="M-16 2 C-16 -4 -8 -8 0 -8 C8 -8 16 -4 16 2 C16 4 14 5 12 5 L-12 5 C-14 5 -16 4 -16 2 Z" fill="#E9E0C6"/>
+          <path d="M-9 -7.5 C-6 -10 6 -10 9 -7.5" fill="none" stroke="#E9E0C6" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M-5 -4 L-3 3 M0 -5 L0 3.5 M5 -4 L3 3" stroke="#2C5140" stroke-width="1.1" stroke-linecap="round"/>
+        </g>
+        <text x="50" y="74" text-anchor="middle" style="font-family:'Fraunces',serif;font-size:6.5px;letter-spacing:1.5px;fill:#FDFBF6">EST. 2018</text>
+      </svg>
+      <span>
+        <span class="brand-name">Bonjour Putney</span>
+        <span class="brand-sub">French bakery, SW15</span>
+      </span>
+    </a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-page="home" class="active">Home</a></li>
+        <li><a href="#menu" data-page="menu">Menu</a></li>
+        <li><a href="#story" data-page="story">Our story</a></li>
+        <li><a href="#cakes" data-page="cakes">Cakes and catering</a></li>
+        <li><a href="#findus" data-page="findus">Find us</a></li>
+      </ul>
+    </nav>
+    <a href="#cakes" data-page="cakes" class="btn nav-cta">Want to order?</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HOME : objectif, donner envie de pousser la porte ================= -->
+<article class="page active" id="page-home">
+
+  <section class="hero">
+    <div class="hero-bg" role="img" aria-label="The Bonjour Putney shopfront on Lower Richmond Road"></div>
+    <div class="wrap">
+      <div class="hero-inner">
+        <span class="hand">Bonjour !</span>
+        <h1>Your little <em class="accent">French bakery</em> in Putney</h1>
+        <p>Croissants, bread and cakes, baked here every morning since 2018. Come in for a coffee, stay for a chat.</p>
+        <a href="#menu" data-page="menu" class="btn">See the menu</a>
+        <p class="hero-hours"><b>Open every day, 6:30am to 3:00pm</b><br>64 Lower Richmond Road, a stroll from the Thames · <a class="tlink" href="#findus" data-page="findus">Find us</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="favs">
+    <div class="wrap">
+      <div class="favs-head">
+        <span class="hand">les incontournables</span>
+        <h2>What to try first</h2>
+      </div>
+      <div class="favs-grid">
+        <div>
+          <div class="fav"><h3>Butter croissant</h3><span class="fill"></span><span class="price">£2.40</span></div>
+          <div class="fav"><h3>Croque monsieur<span class="scribble">the local legend</span></h3><span class="fill"></span><span class="price">£6.50</span></div>
+          <div class="fav"><h3>Pain au chocolat</h3><span class="fill"></span><span class="price">£2.60</span></div>
+          <div class="fav"><h3>Gâteau marbré</h3><span class="fill"></span><span class="price">£3.50</span></div>
+          <div class="fav"><h3>Sausage roll</h3><span class="fill"></span><span class="price">£3.90</span></div>
+        </div>
+        <figure class="favs-img">
+          <img class="ph-img" style="object-position:center 25%" src="img/favs.jpg" alt="Fresh pastries at the bakery counter" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=900&q=80'">
+        </figure>
+      </div>
+      <div class="favs-foot"><a href="#menu" data-page="menu" class="btn">See the full menu</a></div>
+    </div>
+  </section>
+
+  <section class="quote">
+    <div class="wrap">
+      <blockquote>
+        “Amazing place for coffee and the most amazing sweet treats! They also do sandwiches which are delicious. The donut was 1000/10. The location is lovely and central to Putney!”
+        <cite>Customer review</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="ig">
+    <div class="ig-head">
+      <span class="hand">en ce moment au fournil</span>
+      <h2>Latest from our Instagram</h2>
+    </div>
+    <div class="cf" id="cf">
+        <div class="cf-card" data-href="https://www.instagram.com/p/DZaTvMTiOBt/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/facade.jpg" alt="Eight years on Lower Richmond Road, and the ovens are still warm every morning." loading="lazy"></div>
+          <p class="cf-cap">Eight years on Lower Richmond Road, and the ovens are still warm every morning.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/DZaTvMTiOBt/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CwPeLpHo3zu/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/pastry.jpg" alt="Raspberry almond pastry, fresh from the counter." loading="lazy"></div>
+          <p class="cf-cap">Raspberry almond pastry, fresh from the counter.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CwPeLpHo3zu/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/DTKmRBtCFIv/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/galette.jpg" alt="Galette des rois season! Golden crowns and a hidden feve." loading="lazy"></div>
+          <p class="cf-cap">Galette des rois season! Golden crowns and a hidden feve.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/DTKmRBtCFIv/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/DZ-nTuSiOjp/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/cake.jpg" alt="Happy birthday Dad, written in chocolate." loading="lazy"></div>
+          <p class="cf-cap">Happy birthday Dad, written in chocolate.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/DZ-nTuSiOjp/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CsoU4amorqX/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/bread.jpg" alt="Fresh baguettes, baked throughout the morning." loading="lazy"></div>
+          <p class="cf-cap">Fresh baguettes, baked throughout the morning.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CsoU4amorqX/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/Cg9Kf9LIF4O/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g09.jpg" alt="Strawberries and chocolate, a celebration classic." loading="lazy"></div>
+          <p class="cf-cap">Strawberries and chocolate, a celebration classic.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/Cg9Kf9LIF4O/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/reel/C5dLShpo2bn/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/savoury.jpg" alt="Charcuterie and cheese platters for the Boat Race catering." loading="lazy"></div>
+          <p class="cf-cap">Charcuterie and cheese platters for the Boat Race catering.</p>
+          <a class="cf-more" href="https://www.instagram.com/reel/C5dLShpo2bn/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CsoVe5QIh9L/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g03.jpg" alt="Strawberry birthday tart, made to order." loading="lazy"></div>
+          <p class="cf-cap">Strawberry birthday tart, made to order.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CsoVe5QIh9L/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/DSfQyRniPZ0/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/coffee.jpg" alt="Our coffee corner and the vintage china collection." loading="lazy"></div>
+          <p class="cf-cap">Our coffee corner and the vintage china collection.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/DSfQyRniPZ0/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CeoE2n1I2gY/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g10.jpg" alt="Almond tarts in the making, behind the counter." loading="lazy"></div>
+          <p class="cf-cap">Almond tarts in the making, behind the counter.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CeoE2n1I2gY/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/DD195luIp5E/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g01.jpg" alt="Christmas yule logs, a French tradition." loading="lazy"></div>
+          <p class="cf-cap">Christmas yule logs, a French tradition.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/DD195luIp5E/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CncHZh7o1pQ/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g05.jpg" alt="Personalised birthday cakes, any name you like." loading="lazy"></div>
+          <p class="cf-cap">Personalised birthday cakes, any name you like.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CncHZh7o1pQ/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/reel/DZuq0XbI1kl/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/patiss.jpg" alt="Simple cakes, proper flavour. All made here." loading="lazy"></div>
+          <p class="cf-cap">Simple cakes, proper flavour. All made here.</p>
+          <a class="cf-more" href="https://www.instagram.com/reel/DZuq0XbI1kl/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/Cdq0tWiI9yh/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g11.jpg" alt="Lunch in the sun on Lower Richmond Road." loading="lazy"></div>
+          <p class="cf-cap">Lunch in the sun on Lower Richmond Road.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/Cdq0tWiI9yh/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CyU9RytI-7c/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g02.jpg" alt="Halloween special, chocolate and orange tart." loading="lazy"></div>
+          <p class="cf-cap">Halloween special, chocolate and orange tart.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CyU9RytI-7c/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CopR3ewIxZr/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g04.jpg" alt="I love you, said with cake." loading="lazy"></div>
+          <p class="cf-cap">I love you, said with cake.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CopR3ewIxZr/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/Cmw5uw2I59p/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g06.jpg" alt="Savoury special of the day." loading="lazy"></div>
+          <p class="cf-cap">Savoury special of the day.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/Cmw5uw2I59p/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CltNpDYInqM/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g07.jpg" alt="A 60th birthday worth celebrating." loading="lazy"></div>
+          <p class="cf-cap">A 60th birthday worth celebrating.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CltNpDYInqM/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/DUiY-pwCNa1/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g12.jpg" alt="Catering service, pastries on vintage china." loading="lazy"></div>
+          <p class="cf-cap">Catering service, pastries on vintage china.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/DUiY-pwCNa1/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/p/CksiapiISLj/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/g08.jpg" alt="Every message piped by hand." loading="lazy"></div>
+          <p class="cf-cap">Every message piped by hand.</p>
+          <a class="cf-more" href="https://www.instagram.com/p/CksiapiISLj/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <div class="cf-card" data-href="https://www.instagram.com/reel/DNFuLn0IP4y/">
+          <div class="cf-head"><span class="cf-ava">BP</span><div class="cf-user"><b>bonjourputney64</b><span>Putney, London</span></div><svg class="cf-ig" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg></div>
+          <div class="cf-imgwrap"><img src="img/hero.jpg" alt="A part of France in Putney, since 2018." loading="lazy"></div>
+          <p class="cf-cap">A part of France in Putney, since 2018.</p>
+          <a class="cf-more" href="https://www.instagram.com/reel/DNFuLn0IP4y/" target="_blank" rel="noopener">View on Instagram</a>
+        </div>
+        <button class="car-btn prev" id="carPrev" aria-label="Previous photo">←</button>
+        <button class="car-btn next" id="carNext" aria-label="Next photo">→</button>
+      </div>
+    <div class="ig-foot"><a class="btn green" href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener">See our Instagram</a></div>
+  </section>
+
+  <section class="come">
+    <div class="wrap come-grid">
+      <div class="come-left">
+        <div>
+          <span class="hand">à bientôt</span>
+          <h2>Come say bonjour</h2>
+          <p>We are on Lower Richmond Road, two minutes from Putney Bridge. The first croissants come out at half past six.</p>
+          <p><a href="#findus" data-page="findus" class="tlink">How to find us</a></p>
+        </div>
+        <div class="come-card">
+          <div class="day"><span>Monday to Sunday</span><span>6:30am to 3:00pm</span></div>
+          <p class="addr">64 Lower Richmond Road<br>Putney, London SW15 1LL<br>020 8788 6363</p>
+        </div>
+      </div>
+      <div class="osm come-map"><iframe title="Map, 64 Lower Richmond Road, Putney" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.2293%2C51.4612%2C-0.2133%2C51.4712&amp;layer=mapnik&amp;marker=51.4662%2C-0.2213" loading="lazy"></iframe></div></div>
+  </section>
+</article>
+
+<!-- ================= MENU : objectif, consulter la carte ================= -->
+<article class="page" id="page-menu">
+  <div class="pagehead">
+    <span class="hand">la carte</span>
+    <h1>Baked fresh every morning</h1>
+    <p>Everything is made on the premises, from the first croissant at dawn to the last sandwich of the day.</p>
+  </div>
+  <nav class="mchips" aria-label="Menu categories">
+    <a class="jump" href="#m-vien">Viennoiseries</a>
+    <a class="jump" href="#m-bread">Bread</a>
+    <a class="jump" href="#m-patiss">Pâtisserie</a>
+    <a class="jump" href="#m-sav">Savoury</a>
+    <a class="jump" href="#m-bev">Beverages</a>
+  </nav>
+  <section class="menu-sec">
+    <div class="wrap">
+
+      <div class="mcat" id="m-vien">
+        <figure class="mcat-photo"><img src="img/viennois.jpg" alt="Viennoiseries at Bonjour Putney" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+        <div class="mcat-body">
+
+        <h2>Viennoiseries</h2>
+        <span class="sub">from the oven, before sunrise</span>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Butter croissant</span><span class="mi-fill"></span><span class="mi-price">£2.40</span></div><p class="mi-desc">Hand-laminated, crisp outside, tender inside. Our most loved bake.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Pain au chocolat</span><span class="mi-fill"></span><span class="mi-price">£2.60</span></div><p class="mi-desc">Two batons of dark chocolate in buttery, flaky pastry.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Pain aux raisins</span><span class="mi-fill"></span><span class="mi-price">£2.80</span></div><p class="mi-desc">Swirled with crème pâtissière and plump raisins.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Almond croissant</span><span class="mi-fill"></span><span class="mi-price">£3.20</span></div><p class="mi-desc">Filled with frangipane, topped with flaked almonds and icing sugar.</p></div>
+        </div>
+      </div>
+
+      <div class="mcat flip" id="m-bread">
+        <figure class="mcat-photo"><img src="img/bread.jpg" alt="Fresh baguettes at Bonjour Putney" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+        <div class="mcat-body">
+
+        <h2>Bread</h2>
+        <span class="sub">le bon pain</span>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Baguette tradition</span><span class="mi-fill"></span><span class="mi-price">£1.90</span></div><p class="mi-desc">Crackling crust, open crumb, baked throughout the morning.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Sourdough loaf</span><span class="mi-fill"></span><span class="mi-price">£4.50</span></div><p class="mi-desc">Slow-fermented for flavour and keeping quality.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Pain de campagne</span><span class="mi-fill"></span><span class="mi-price">£4.20</span></div><p class="mi-desc">Rustic country loaf, perfect for the weekend table.</p></div>
+        </div>
+      </div>
+
+      <div class="mcat" id="m-patiss">
+        <figure class="mcat-photo"><img src="img/patisserie.jpg" alt="Fresh fruit tart" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+        <div class="mcat-body">
+
+        <h2>Pâtisserie</h2>
+        <span class="sub">les douceurs</span>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Gâteau marbré, slice</span><span class="mi-fill"></span><span class="mi-price">£3.50</span></div><p class="mi-desc">Our signature marble cake. Chocolate and vanilla, swirled by hand.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Fruit tart</span><span class="mi-fill"></span><span class="mi-price">£4.20</span></div><p class="mi-desc">Crisp pastry, crème pâtissière and seasonal fruit.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Éclair au chocolat</span><span class="mi-fill"></span><span class="mi-price">£3.80</span></div><p class="mi-desc">Choux pastry, silky chocolate crème, glossy glaze.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Galette des rois<span class="season">January only</span></span><span class="mi-fill"></span><span class="mi-price">from £18</span></div><p class="mi-desc">Frangipane, puff pastry, a hidden fève and a golden crown.</p></div>
+        </div>
+      </div>
+
+      <div class="mcat flip" id="m-sav">
+        <figure class="mcat-photo"><img src="img/terrace.jpg" alt="Sandwich lunch on the terrace" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+        <div class="mcat-body">
+
+        <h2>Savoury</h2>
+        <span class="sub">pour la pause déjeuner</span>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Croque monsieur</span><span class="mi-fill"></span><span class="mi-price">£6.50</span></div><p class="mi-desc">Ham, béchamel and melted cheese on our own bread. A local legend.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Sausage roll</span><span class="mi-fill"></span><span class="mi-price">£3.90</span></div><p class="mi-desc">All-butter puff pastry, generously filled and seasoned.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Egg mayo sandwich <span class="veg">V</span></span><span class="mi-fill"></span><span class="mi-price">£4.80</span></div><p class="mi-desc">Homemade mayonnaise on freshly baked baguette.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Baguette sandwiches</span><span class="mi-fill"></span><span class="mi-price">from £4.80</span></div><p class="mi-desc">Made fresh daily. Ask what's in the counter today.</p></div>
+        </div>
+      </div>
+
+      <div class="mcat" id="m-bev">
+        <figure class="mcat-photo"><img src="img/beverages.jpg" alt="Our coffee machine and beverages board" loading="lazy" onerror="this.parentElement.style.display='none'"></figure>
+        <div class="mcat-body">
+
+        <h2>Beverages</h2>
+        <span class="sub">un petit café ?</span>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Espresso / double espresso</span><span class="mi-fill"></span><span class="mi-price">£1.70 / £2.20</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Macchiato, single / double</span><span class="mi-fill"></span><span class="mi-price">£1.80 / £2.30</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Latte, 1 shot</span><span class="mi-fill"></span><span class="mi-price">£2.40</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Café au lait</span><span class="mi-fill"></span><span class="mi-price">£2.40</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Flat white</span><span class="mi-fill"></span><span class="mi-price">£2.40</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Americano</span><span class="mi-fill"></span><span class="mi-price">£2.10</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Cappuccino</span><span class="mi-fill"></span><span class="mi-price">£2.50</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Moka</span><span class="mi-fill"></span><span class="mi-price">£2.90</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Hot chocolate, regular / large</span><span class="mi-fill"></span><span class="mi-price">£2.70 / £3.20</span></div><p class="mi-desc">Served in our vintage china if you're sitting in.</p></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Babyccino</span><span class="mi-fill"></span><span class="mi-price">£1.00</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Iced coffee / iced tea</span><span class="mi-fill"></span><span class="mi-price">£2.90</span></div></div>
+        <div class="mi"><div class="mi-row"><span class="mi-name">Vanilla or caramel syrup, almond or soya milk</span><span class="mi-fill"></span><span class="mi-price">+£0.30</span></div></div>
+        </div>
+      </div>
+
+      <p class="menu-note note">Beverage prices are the shop's real prices, July 2026. Food prices are samples, to be confirmed. <span class="veg">V</span> vegetarian.</p>
+    </div>
+  </section>
+</article>
+
+<!-- ================= STORY : objectif, faire connaissance ================= -->
+<article class="page" id="page-story">
+  <div class="pagehead">
+    <span class="hand">depuis 2018</span>
+    <h1>A part of France in Putney</h1>
+  </div>
+  <section class="essay">
+    <div class="wrap">
+      <div>
+        <p>In 2018, our French bakers set up their ovens at 64 Lower Richmond Road with a simple idea: bake everything on the premises, the way it is done back home. Real butter, patient dough, no shortcuts.</p>
+        <p>Word travelled fast. Saturday-morning croissant runs became a Putney ritual, the croque monsieur earned a reputation across south-west London, and the little shop with the green front became a place where neighbours actually know each other.</p>
+        <p>Today the counter still fills before sunrise, the vintage china still hangs above the coffee machine, and the galette des rois still arrives every January with its golden crowns.</p>
+        <p class="note">Draft narrative, to be confirmed and enriched with the client's real story, names and dates.</p>
+      </div>
+      <figure>
+        <img class="ph-img" src="img/team.jpg" alt="The Bonjour Putney team" loading="lazy" onerror="this.parentElement.classList.add('noimg');this.remove()">
+        <figcaption>the team at work, photo to come</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="tenets">
+    <div class="wrap">
+      <h2>What we care about</h2>
+      <span class="sub">nos valeurs</span>
+      <div class="tenet"><h3>Savoir-faire</h3><p>Trained French bakers, traditional techniques and recipes we refuse to compromise on.</p></div>
+      <div class="tenet"><h3>Freshness, daily</h3><p>Everything is baked on site, every day. What you see in the counter came out of the oven this morning.</p></div>
+      <div class="tenet"><h3>Community</h3><p>A warm welcome, a bit of humour, and a table where Putney meets. This is your bakery as much as ours.</p></div>
+    </div>
+  </section>
+</article>
+
+<!-- ================= CAKES : objectif, envoyer une demande ================= -->
+<article class="page" id="page-cakes">
+  <div class="pagehead">
+    <span class="hand">pour vos grandes occasions</span>
+    <h1>Cakes and catering</h1>
+    <p>Personalised birthday cakes and French platters, handmade in Putney.</p>
+    <p style="margin-top:22px"><a class="btn jump" href="#enquiry">Request a quote</a></p>
+  </div>
+  <section class="offers">
+    <div class="wrap offers-grid">
+      <div class="offer-card">
+        <div class="oc-img"><img class="ph-img" src="img/lavinia.jpg" alt="Handmade strawberry birthday cake" loading="lazy"></div>
+        <div class="oc-body">
+          <span class="hand">sur commande</span>
+          <h2>Custom cakes</h2>
+          <p>Birthdays, anniversaries, declarations of love. Our pâtissiers hand-decorate every cake, with your message piped on top.</p>
+          <ul class="oc-tags"><li>48 hours notice</li><li>Any message, piped by hand</li><li>Collect at the counter</li></ul>
+          <a class="btn jump" href="#enquiry">Order a cake</a>
+        </div>
+      </div>
+      <div class="offer-card">
+        <div class="oc-img"><img class="ph-img" src="img/savoury.jpg" style="object-position:center 40%" alt="Charcuterie and cheese platter" loading="lazy"></div>
+        <div class="oc-body">
+          <span class="hand">pour vos invités</span>
+          <h2>Catering and platters</h2>
+          <p>Charcuterie and cheese boards, viennoiserie baskets, sandwich platters and sweet selections, delivered fresh from the ovens.</p>
+          <ul class="oc-tags"><li>Offices and parties</li><li>From 6 people</li><li>SW15 and beyond</li></ul>
+          <a class="btn green jump" href="#enquiry">Plan your event</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="steps">
+    <div class="wrap">
+      <div class="steps-head"><span class="hand">c'est simple</span><h2>How it works</h2></div>
+      <div class="steps-grid">
+        <div class="step"><span class="step-no">1</span><h3>Tell us</h3><p>Send the form with your date, your numbers and your ideas.</p></div>
+        <div class="step"><span class="step-no">2</span><h3>We bake</h3><p>We confirm within one working day, then get baking. Everything is made on the premises.</p></div>
+        <div class="step"><span class="step-no">3</span><h3>You celebrate</h3><p>Collect at the counter on Lower Richmond Road, warm smiles included.</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="bakes">
+    <div class="wrap">
+      <div class="bakes-head"><span class="hand">quelques créations</span><h2>Recent bakes</h2></div>
+      <div class="bakes-row">
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/cake.jpg" alt="Birthday cake with strawberries" loading="lazy"></a>
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/g03.jpg" alt="Strawberry birthday tart" loading="lazy"></a>
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/g05.jpg" alt="Personalised pink birthday cake" loading="lazy"></a>
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/putneycake.jpg" alt="Almond and apricot tart" loading="lazy"></a>
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/g04.jpg" alt="I love you heart cakes" loading="lazy"></a>
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/g07.jpg" alt="A 60th birthday cake" loading="lazy"></a>
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/g01.jpg" alt="Christmas yule logs" loading="lazy"></a>
+        <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><img src="img/patisserie.jpg" alt="Fresh fruit tart" loading="lazy"></a>
+      </div>
+    </div>
+  </section>
+  <section class="enquiry" id="enquiry">
+    <div class="wrap enquiry-grid">
+      <aside class="enq-aside">
+        <span class="hand">dites-nous tout</span>
+        <h3>Tell us about your event</h3>
+        <p>Fill in the form and we will come back to you within <b>one working day</b>.</p>
+        <p>In a hurry? Call us on <b>020 8788 6363</b>, or pop in. We are open every day, 6:30am to 3:00pm.</p>
+        <p><b>64 Lower Richmond Road</b><br>Putney, London SW15 1LL</p>
+      </aside>
+      <div class="form-card rise">
+        <form id="cakeForm" class="form-grid" novalidate>
+          <div class="field"><label for="f-name">Your name *</label><input id="f-name" type="text" required autocomplete="name"></div>
+          <div class="field"><label for="f-email">Email *</label><input id="f-email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="f-phone">Phone</label><input id="f-phone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="f-date">Date needed</label><input id="f-date" type="date"></div>
+          <div class="field"><label for="f-type">What do you need?</label><select id="f-type"><option>Birthday or celebration cake</option><option>Charcuterie and cheese boards</option><option>Catering platters</option><option>Viennoiserie basket</option><option>Something else</option></select></div>
+          <div class="field"><label for="f-guests">Number of guests</label><input id="f-guests" type="number" min="1"></div>
+          <div class="field full"><label for="f-msg">Tell us more</label><textarea id="f-msg" rows="3" placeholder="Flavours, allergies, the message on the cake…"></textarea></div>
+          <div class="form-foot">
+            <span class="note">Demo form, not connected yet. On the live site, requests will arrive by email.</span>
+            <button type="submit" class="btn">Send my request</button>
+          </div>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <span class="hand" style="font-size:2rem">merci !</span>
+          <h3 style="font-size:1.5rem;margin:6px 0 8px">Your request is on its way</h3>
+          <p style="color:var(--soft)">We will get back to you within one working day. In a hurry? Call us on <b>020 8788 6363</b>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+
+<!-- ================= FIND US : objectif, venir en boutique ================= -->
+<article class="page" id="page-findus">
+  <div class="pagehead">
+    <span class="hand">à deux pas de la Tamise</span>
+    <h1>Come say bonjour</h1>
+    <p>On Lower Richmond Road, a short stroll from Putney Bridge and the river.</p>
+  </div>
+  <section class="findus-sec">
+    <div class="wrap">
+      <div class="fu-panel">
+        <div class="fu-col">
+          <span class="hand">notre adresse</span>
+          <h3>Visit us</h3>
+          <p><b>64 Lower Richmond Road</b><br>Putney, London SW15 1LL<br>Phone: <b>020 8788 6363</b><br>hello@bonjourputney.co.uk <span class="note">(placeholder)</span></p>
+        </div>
+        <div class="fu-col fu-hours">
+          <span class="hand">tous les jours</span>
+          <h3>Opening hours</h3>
+          <p class="big">6:30am to 3:00pm</p>
+          <p>Every single day, Monday to Sunday. The first croissants come out at half past six.</p>
+        </div>
+        <div class="fu-col fu-follow">
+          <span class="hand">suivez le fournil</span>
+          <h3>Fresh bakes, daily</h3>
+          <p>Today's bakes and seasonal specials, straight from the ovens.</p>
+          <a class="btn btn-insta" href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>Follow us</a>
+        </div>
+      </div>
+      <div class="fu-getting">
+        <h3>Getting here</h3>
+        <p>A few minutes' walk from <b>Putney Bridge</b> and the Thames towpath, perfect after a riverside stroll. Buses stop on Lower Richmond Road; Putney rail and East Putney tube are both nearby.</p>
+      </div>
+      <div class="osm osm-tall"><iframe title="Map, 64 Lower Richmond Road, Putney" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.2293%2C51.4612%2C-0.2133%2C51.4712&amp;layer=mapnik&amp;marker=51.4662%2C-0.2213" loading="lazy"></iframe></div>
+    </div>
+  </section>
+</article>
+
+</main>
+
+<footer>
+  <div class="foot-top"><span class="hand">à bientôt !</span></div>
+  <div class="foot-mid">
+    64 Lower Richmond Road, Putney, London SW15 1LL · 020 8788 6363<br>
+    Open every day, 6:30am to 3:00pm · <a href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener">@bonjourputney64</a>
+  </div>
+  <div class="foot-links">
+    <a href="#home" data-page="home">Home</a>
+    <a href="#menu" data-page="menu">Menu</a>
+    <a href="#story" data-page="story">Our story</a>
+    <a href="#cakes" data-page="cakes">Cakes and catering</a>
+    <a href="#findus" data-page="findus">Find us</a>
+  </div>
+  <div class="foot-social">
+    <a class="fsoc" aria-label="Instagram" href="https://www.instagram.com/bonjourputney64/" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+    <a class="fsoc" aria-label="Facebook" href="https://www.facebook.com/" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5V11H8.5v3H11v7Z"/></svg></a>
+  </div>
+  <div class="foot-bottom">
+    <span>© <span id="year"></span> Bonjour Putney</span>
+    <span>Website concept v4. Photos are placeholders pending final photography.</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var pages=document.querySelectorAll('.page');
+  var navLinks=document.getElementById('navLinks');
+  var burger=document.getElementById('burger');
+  var header=document.getElementById('siteHeader');
+  function syncHead(){
+    document.documentElement.style.setProperty('--headh',(header.offsetHeight+14)+'px');
+    var bm=document.querySelector('.brand-mark');
+    if(bm)document.documentElement.style.setProperty('--pilll',Math.max(24,Math.round(bm.getBoundingClientRect().left))+'px');
+  }
+  syncHead(); window.addEventListener('resize',syncHead);
+  function onScroll(){header.classList.toggle('scrolled',window.scrollY>30);}
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  document.querySelectorAll('[data-page]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      history.replaceState(null,'','#'+a.dataset.page);
+      show(a.dataset.page);
+    });
+  });
+  function show(id){
+    document.body.classList.toggle('home',id==='home');
+    pages.forEach(function(p){p.classList.toggle('active',p.id==='page-'+id);});
+    document.querySelectorAll('.nav-links a').forEach(function(a){a.classList.toggle('active',a.dataset.page===id);});
+    window.scrollTo(0,0);
+    navLinks.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+    imgInit();
+  }
+  var initial=(location.hash||'#home').slice(1);
+  if(document.getElementById('page-'+initial)) show(initial);
+
+  burger.addEventListener('click',function(){
+    var open=navLinks.classList.toggle('open');
+    burger.setAttribute('aria-expanded',open);
+  });
+
+  /* photos fade in softly; never stay hidden */
+  var io=('IntersectionObserver'in window)?new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('visible');io.unobserve(en.target);}
+    });
+  },{threshold:.05}):null;
+  function imgInit(){
+    var els=document.querySelectorAll('.page.active .ph-img:not(.visible)');
+    if(!io){els.forEach(function(el){el.classList.add('visible');});return;}
+    els.forEach(function(el){io.observe(el);});
+  }
+  imgInit();
+  setTimeout(function(){document.querySelectorAll('.ph-img').forEach(function(el){el.classList.add('visible');});},2000);
+
+  var form=document.getElementById('cakeForm');
+  if(form){
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      var n=form.querySelector('#f-name'),m=form.querySelector('#f-email');
+      if(!n.value){n.reportValidity();return}
+      if(!m.value||!m.checkValidity()){m.reportValidity();return}
+      form.style.display='none';
+      document.getElementById('formSuccess').classList.add('show');
+    });
+  }
+
+  /* instagram carousel coverflow */
+  var cf=document.getElementById('cf');
+  if(cf){
+    var cards=Array.prototype.slice.call(cf.querySelectorAll('.cf-card'));
+    var idx=0,n=cards.length,timer;
+    function render(){
+      cards.forEach(function(c,i){
+        var d=i-idx;
+        if(d>n/2)d-=n; if(d<-n/2)d+=n;
+        var ad=Math.abs(d);
+        c.style.transform='translateX(calc(-50% + '+(d*54)+'%)) scale('+(1-0.09*Math.min(ad,3))+')';
+        c.style.zIndex=100-ad;
+        c.style.opacity=ad>2?0:1;
+        c.style.pointerEvents=ad>2?'none':'auto';
+      });
+    }
+    function go(i){idx=(i+n)%n;render();}
+    cards.forEach(function(c,i){
+      c.addEventListener('click',function(e){
+        var d=i-idx; if(d>n/2)d-=n; if(d<-n/2)d+=n;
+        if(d!==0){e.preventDefault();go(i);restart();}
+        else if(!e.target.closest('a')){window.open(c.dataset.href,'_blank');}
+      });
+    });
+    var pv=document.getElementById('carPrev'),nx=document.getElementById('carNext');
+    pv.addEventListener('click',function(){go(idx-1);restart();});
+    nx.addEventListener('click',function(){go(idx+1);restart();});
+    function restart(){clearInterval(timer);timer=setInterval(function(){go(idx+1);},5000);}
+    cf.addEventListener('mouseenter',function(){clearInterval(timer);});
+    cf.addEventListener('mouseleave',restart);
+    render();restart();
+  }
+
+  /* hero : facade.jpg si dispo, sinon hero.jpg */
+  (function(){var t=new Image();t.onerror=function(){var b=document.querySelector('.hero-bg');if(b)b.style.backgroundImage="url('img/hero.jpg')"};t.src='img/facade.jpg';})();
+
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
